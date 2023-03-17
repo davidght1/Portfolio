@@ -6,17 +6,23 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 0,
+      src: pinvent,
+      demo: "https://pinvent-frontend-nine.vercel.app/",
+      code: "https://github.com/davidght1/Pinvent",
+    },
+    {
+      id: 1,
       src: amazona,
       demo: "https://mern-amazona-app-2gxt.onrender.com",
       code: "https://github.com/davidght1/amazonMern",
     },
     {
-      id: 1,
+      id: 2,
       src: blog,
       code: "https://github.com/davidght1/Mern-Blog",
     },
     {
-      id: 2,
+      id: 3,
       src: navbar,
     },
   ];
