@@ -2,6 +2,7 @@ import React from "react";
 import amazona from "../assets/portfolio/amazona.jpg";
 import blog from "../assets/portfolio/blog.jpg";
 import navbar from "../assets/portfolio/navbar.jpg";
+import pinvent from "../assets/portfolio/pinvent.jpg";
 const Portfolio = () => {
   const portfolios = [
     {
