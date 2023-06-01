@@ -3,6 +3,7 @@ import amazona from "../assets/portfolio/amazona.jpg";
 import blog from "../assets/portfolio/blog.jpg";
 import navbar from "../assets/portfolio/navbar.jpg";
 import pinvent from "../assets/portfolio/pinvent.jpg";
+import sport from "../assets/portfolio/sport.jpg";
 const Portfolio = () => {
   const portfolios = [
     {
@@ -19,11 +20,17 @@ const Portfolio = () => {
     },
     {
       id: 2,
+      src: sport,
+      demo: "https://sports-task.vercel.app",
+      code: "https://github.com/davidght1/SportsTask",
+    },
+    {
+      id: 3,
       src: blog,
       code: "https://github.com/davidght1/Mern-Blog",
     },
     {
-      id: 3,
+      id: 4,
       src: navbar,
     },
   ];
