@@ -4,6 +4,7 @@ import blog from "../assets/portfolio/blog.jpg";
 import navbar from "../assets/portfolio/navbar.jpg";
 import pinvent from "../assets/portfolio/pinvent.jpg";
 import sport from "../assets/portfolio/sport.jpg";
+import rick from "../assets/portfolio/rick.jpg";
 const Portfolio = () => {
   const portfolios = [
     {
