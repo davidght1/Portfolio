@@ -20,17 +20,23 @@ const Portfolio = () => {
     },
     {
       id: 2,
+      src: rickandmorty,
+      demo: "https://rick-and-morty-davidght1.vercel.app",
+      code: "https://github.com/davidght1/RickAndMorty",
+    },
+    {
+      id: 3,
       src: sport,
       demo: "https://sports-task.vercel.app",
       code: "https://github.com/davidght1/SportsTask",
     },
     {
-      id: 3,
+      id: 4,
       src: blog,
       code: "https://github.com/davidght1/Mern-Blog",
     },
     {
-      id: 4,
+      id: 5,
       src: navbar,
     },
   ];
