@@ -9,6 +9,9 @@ import mysql from "../assets/mysql.png";
 import node from "../assets/node.png";
 import react from "../assets/react.png";
 import tailwind from "../assets/tailwind.png";
+import csharp from "../assets/csharp.png"
+import sql from "../assets/sql.png"
+import python from "../assets/python.png"
 
 const Experience = () => {
   const techs = [
@@ -71,6 +74,24 @@ const Experience = () => {
       src: mongodb,
       title: "MongoDB",
       style: "shadow-green-300",
+    },
+    {
+      id: 11,
+      src: sql,
+      title: "SQL",
+      style: "shadow-sky-400",
+    },
+    {
+      id: 12,
+      src: csharp,
+      title: "C#",
+      style: "shadow-purple-400",
+    },
+    {
+      id: 13,
+      src: python,
+      title: "Python",
+      style: "shadow-gray-400",
     },
   ];
 

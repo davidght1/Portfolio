@@ -2,7 +2,7 @@ import React from "react";
 import { FaGithub } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-
+import {AiFillLinkedin} from "react-icons/ai"
 const SocialLinks = () => {
   const links = [
     {
@@ -20,6 +20,16 @@ const SocialLinks = () => {
       id: 2,
       child: (
         <>
+          Linkdin
+          <AiFillLinkedin size={30} />
+        </>
+      ),
+      href: "https://www.linkedin.com/in/david-agam-98107a19b/",
+    },
+    {
+      id: 3,
+      child: (
+        <>
           Mail
           <HiOutlineMail size={30} />
         </>
@@ -27,7 +37,7 @@ const SocialLinks = () => {
       href: "mailto:davidght1@gmail.com",
     },
     {
-      id: 3,
+      id: 4,
       child: (
         <>
           Resume
