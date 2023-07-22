@@ -14,15 +14,15 @@ const Portfolio = () => {
     },
     {
       id: 1,
-      src: amazona,
-      demo: "https://mern-amazona-app-2gxt.onrender.com",
-      code: "https://github.com/davidght1/amazonMern",
-    },
-    {
-      id: 2,
       src: rick,
       demo: "https://rick-and-morty-davidght1.vercel.app",
       code: "https://github.com/davidght1/RickAndMorty",
+    },
+    {
+      id: 2,
+      src: amazona,
+      demo: "https://mern-amazona-app-2gxt.onrender.com",
+      code: "https://github.com/davidght1/amazonMern",
     },
     {
       id: 3,
