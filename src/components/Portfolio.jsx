@@ -1,7 +1,6 @@
 import React from "react";
 import amazona from "../assets/portfolio/amazona.jpg";
 import blog from "../assets/portfolio/blog.jpg";
-import navbar from "../assets/portfolio/navbar.jpg";
 import pinvent from "../assets/portfolio/pinvent.jpg";
 import sport from "../assets/portfolio/sport.jpg";
 import rick from "../assets/portfolio/rick.jpg";
@@ -35,10 +34,6 @@ const Portfolio = () => {
       id: 4,
       src: blog,
       code: "https://github.com/davidght1/Mern-Blog",
-    },
-    {
-      id: 5,
-      src: navbar,
     },
   ];
   const handleDemoClick = (url) => {
